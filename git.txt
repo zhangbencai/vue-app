@@ -1,0 +1,48 @@
+配置：用户名和邮箱
+git config --global user.name "你的git名称"
+git config --global user.email "你的git验证邮箱"
+查看有没有配置：
+ git config --list
+初始化仓库
+git init
+添加暂存区
+git add .
+提交本地仓库
+git commit -m '注释'
+查看工作去和暂存区状态
+git status
+查看工作区某个文件的变动
+git diff 文件名
+查看日志
+git log   
+git reflog
+退回版本
+git reset --hard 版本号
+提交远程仓库
+git remote add origin '远程仓库地址'
+查看远程仓库地址
+git remote -v
+第一次提交远程仓库
+git push -u origin master
+第二次以后提交远程仓库
+git push
+更新数据
+git fetch
+git pull
+克隆：
+git clone 地址
+分支操作
+查看分支
+git branch
+创建分支
+git branch 分支名
+切换分支
+git checkout 分支名
+合并分支
+git merge 合并分支名
+删除分支
+git branch -d 分支名
+分支提交远程仓库
+git push origin 分支名
+更新分支
+git pull origin 分支名
